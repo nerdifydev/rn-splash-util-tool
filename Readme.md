@@ -23,7 +23,7 @@ npm install -g rn-splash-util-tool
 2. Run the following command:
 
 ```bash
-create-splash-images
+splash-gen
 ```
 
 3. When prompted, enter the path to your splash image:
@@ -39,21 +39,9 @@ create-splash-images
 
 The tool will generate all splash images in the appropriate locations within your project structure:
 
-- ios/
-  - Images.xcassets/
-    - SplashScreen.imageset/
-      - splash@1x.png
-      - splash@2x.png
-      - splash@3x.png
-- android/
-  - app/src/main/res/
-    - drawable-hdpi/
-    - drawable-mdpi/
-    - drawable-xhdpi/
-    - drawable-xxhdpi/
-    - drawable-xxxhdpi/
-  - app/src/main/res/layout/
-    - launch_screen.xml
+<p>
+  <img height="150" src="https://github.com/nerdifydev/rn-splash-util-tool/blob/main/images/output.png"></img>
+</p> 
 
 ## Contributing
 
