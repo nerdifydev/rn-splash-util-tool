@@ -1,6 +1,6 @@
 {
   "name": "rn-splash-util-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily generate splash/launch images for both iOS and Android with a single command. This tool creates all the required image sizes and automatically generates the Android launch_screen.xml file. Save time and simplify your splash screen setup for React Native apps with this quick and easy utility.",
   "main": "index.js",
   "bin": {
