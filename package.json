@@ -1,0 +1,42 @@
+{
+  "name": "rn-splash-util-tool",
+  "version": "1.0.0",
+  "description": "Easily generate splash/launch images for both iOS and Android with a single command. This tool creates all the required image sizes and automatically generates the Android launch_screen.xml file. Save time and simplify your splash screen setup for React Native apps with this quick and easy utility.",
+  "main": "index.js",
+  "bin": {
+    "splash-gen": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdifydev/rn-splash-util-tool.git"
+  },
+  "author": "Lokesh Jangid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerdifydev/rn-splash-util-tool/issues"
+  },
+  "keywords": [
+    "splash-screen",
+    "splash screen",
+    "launch image",
+    "launch-image",
+    "react-native",
+    "splash-images",
+    "react-native-splash-generate",
+    "react-native-splash-images",
+    "react-native-splash-image-generate"
+  ],
+  "homepage": "https://github.com/nerdifydev/rn-splash-util-tool#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^10.2.0",
+    "is-image": "^4.0.0",
+    "jimp": "^1.2.0",
+    "path": "^0.12.7"
+  },
+  "type": "module"
+}
